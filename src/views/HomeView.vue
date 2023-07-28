@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import ListItem from '@/components/ListItem.vue';
+import BarItem from '@/components/BarItem.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <BarItem />
+    <ListItem />
   </main>
 </template>
